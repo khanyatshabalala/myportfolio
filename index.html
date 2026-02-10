@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' https://www.gstatic.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; connect-src 'self' https://dialogflow.cloud.google.com;">
+    <title>Khanya 'Tshabalala' Mgebisa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <meta name="author" content="Khanya 'Tshabalala' Mgebisa">
+    <meta name="keywords" content="Khanya Mgebisa, Tshabalala, Front-End Developer, Software Developer, AWS User Group, CPTMSDUG, .NET Community, Web Developer, Chatbot Integration, AI Assistant">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="myContacts.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Khanya Mgebisa</h1>
+                    <p>Front-End Developer <br>
+                    <span>Active in AWS User Group | CPTMSDUG | .NET Community | SUI</span>
+                    </p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/Khanya-Mgebisa-Headshot.PNG" alt="Khanya Mgebisa - Front-End Developer" loading="eager">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>About Me</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Junior Developer</h3>
+                    <p>Passionate about creating modular, scalable solutions</p>
+                </div>
+                <div class="card">
+                    <h3>Community Active</h3>
+                    <p>Engaged in AWS, CPTMSDUG, GoogleDev, OfferZen, Sui and .NET events</p>
+                </div>
+                <div class="card">
+                    <h3>Continuous Learner</h3>
+                    <p>Web/Software Developer Intern @ Capaciti</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p>
+                I'm Khanya Mgebisa, a systems thinker, platform architect, and junior web developer at CAPACITI, passionate about building solutions that empower both organizations and grassroots communities. My work bridges technical and design domains, ensuring every feature is scalable, transparent, and user-friendly.
+            </p>
+            <p>
+                I focus on creating modular, user-centric applications that solve real-world problems from commuter apps to fairness auditing tools, approaching each project with a commitment to clean architecture and thoughtful design. I thrive on collaborative ideation, practical problem-solving, and continuous refinement of user flows, often infusing humor and personality into technical work.
+            </p>
+            <p>
+                Beyond coding, I'm an active member of Cape Town's tech community, participating in AWS User Group CPT, CPTMSDUG (Microsoft Developer User Group), and .NET events, where I learn from peers and contribute to discussions on modern development practices and emerging technologies.
+            </p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    
+    <!-- Dialogflow Messenger Chatbot -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="Khanya Mgebisa"
+        agent-id="9db7fcc0-7f62-487f-a6d1-6aa79839fcce"
+        language-code="en"
+        chat-icon="https://www.gstatic.com/dialogflow-console/fast/messenger/messenger-icon.svg"
+    ></df-messenger>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
