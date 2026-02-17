@@ -1,0 +1,20 @@
+# Netlify configuration file
+
+# Form settings
+[build]
+  publish = "."
+
+# Email notification settings
+[functions]
+  # Optional: if you want to add serverless functions later
+
+# Redirect rules (optional)
+[[redirects]]
+  from = "/contact"
+  to = "/myContacts.html"
+  status = 200
+
+# Form submission notifications
+# Note: Configure email notifications in Netlify Dashboard:
+# Site Settings > Forms > Form notifications > Add notification
+# Select "Email notification" and enter: mgebisak@gmail.com
